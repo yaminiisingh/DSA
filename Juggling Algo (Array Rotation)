@@ -11,7 +11,8 @@ public class ArrayRotation {
             System.out.print(arr[i]+ " ");
         }
     }
-
+    
+    //program to left rotate array of size n by d
     void leftRotate(int arr[], int d, int n){
         d=d%n;
         int i,j,k,temp;
