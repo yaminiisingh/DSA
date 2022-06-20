@@ -14,7 +14,7 @@ public class ArrayRotation {
     
     //program to left rotate array of size n by d
     void leftRotate(int arr[], int d, int n){
-        d=d%n;
+        d=d%n;    //to handle if d>=n
         int i,j,k,temp;
         int g_c_d= gcd(d,n);
         for(i=0; i<g_c_d; i++){
